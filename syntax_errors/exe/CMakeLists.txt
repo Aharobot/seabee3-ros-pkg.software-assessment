@@ -8,5 +8,4 @@ foreach( source ${EXE_SOURCES} )
 
     add_executable( ${source_name} ${source_src} )
     target_link_libraries( ${source_name} ${PROJECT_NAME} )
-    add_executable( ${source_name} ${source_src} )
 endforeach()
